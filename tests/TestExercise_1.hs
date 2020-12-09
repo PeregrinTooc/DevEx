@@ -3,7 +3,7 @@ module TestExercise_1 where
 import Exercise_1
 -- Don't change the code below these lines -----------------------
 -- Tests for exercise one
-testExercise_1_result_a = test [1,2,3] 
+testExercise_1_result_a = test [1,2,3,4] 
   where test xs | secondElement xs == 2 = "Exercise 1a: Congratulations!" 
                 | otherwise = "Exercise 1a: Ups, maybe another try?"
 
