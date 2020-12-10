@@ -8,4 +8,4 @@ sumList = foldl (+) 0
 sumListEven:: [Int] -> Int
 sumListEven = foldl addIfEven 0 where
     addIfEven:: Int-> Int-> Int
-    addIfEven x y = if  mod y 2 == 0 then x+y else x
+    addIfEven x y = if  even y then x+y else x
